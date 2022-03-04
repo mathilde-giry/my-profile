@@ -1,0 +1,126 @@
+body{
+	background-color: #F0FFFF;
+	color: rgb(50, 50, 50);
+	text-decoration: none;
+	font-family: 'raleway', sans-serif;
+	font-size: 18px;
+}
+
+
+h1{
+	color: #6495ED;
+	image-rendering: optimizeQuality;
+}
+
+
+h2{
+	color: #6495ED;
+	line-height: 3;
+	letter-spacing: 3px;
+
+}
+
+h1,h2{
+	font-family: 'Playfair Display';serif
+}
+
+
+.container {
+  width: 100%; 
+  margin:  auto;
+}
+
+.card-beige{
+  display: inline-block;
+  margin: 2%;
+
+	text-align: center;
+	background: #A9A9A9;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px #6495ED;
+    padding: 20px 20px 20px 20px;
+    width: 40%;
+}
+
+.btn-bleu{
+	text-decoration: none;
+	background-color: #6495ED ;
+	color: #F0FFFF;
+	padding: 10px 15px;
+	border-radius: 4px;
+	transition: color 0.3s ease;
+}
+.btn-bleu:hover{
+	text-decoration: none;
+	background-color: #5F9EA0;
+	color: #F0FFFF;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	list-style: none;
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #6495ED;
+}
+
+.list-inline i:hover {
+	color: #6495ED;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 650px;
+  }
+  .card-beige{
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .card-beige{
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+  .card-beige{
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 300px;
+  }
+  .card-beige{
+    width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  .container {
+    width: 250px;
+  }
+  .card-beige{
+    width: 200px;
+  }
+}
+
+
